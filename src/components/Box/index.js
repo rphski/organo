@@ -59,11 +59,9 @@ const Box = (props) => {
                     valor={team}
                     toModify={valor => setTeam(valor)}
                 />
-                <a href='#' class='default'>
                 <Button>
                     Join Card
                 </Button>
-                </a>
             </form>
         </section>
     )
