@@ -1,0 +1,43 @@
+.default{
+    color: '';
+}
+
+.default::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(110deg, #f54242, #fad648, #a767e5,
+    #12bcfe, #44ce7b);
+    background-size: 50% 100%;
+    border-radius: inherit;
+}
+
+@keyframes borderAnimate{
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+.default:hover ::before{
+    animation: borderAnimate 0.85s linear infinite;
+    color: #95ffd4
+}
+
+.default button{
+    background-color: #6278F7;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 32px 0;
+    position: relative;
+    overflow: hidden;
+}

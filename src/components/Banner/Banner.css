@@ -1,0 +1,9 @@
+/*esse banner é o bacground da imagem*/
+.banner {
+    background-color: #6278F7;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+}
